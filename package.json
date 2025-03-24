@@ -1,0 +1,52 @@
+{
+  "license": "0BSD",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "latest",
+    "@react-native-async-storage/async-storage": "^1.24.0",
+    "@react-native-community/geolocation": "^3.4.0",
+    "@react-native-community/slider": "latest",
+    "@react-navigation/bottom-tabs": "^7.2.1",
+    "@react-navigation/native": "latest",
+    "@react-navigation/native-stack": "latest",
+    "@supabase/supabase-js": "^2.49.1",
+    "body-parser": "latest",
+    "cors": "latest",
+    "expo": "~52.0.37",
+    "expo-camera": "latest",
+    "expo-firebase-recaptcha": "latest",
+    "expo-linear-gradient": "latest",
+    "expo-location": "^18.0.7",
+    "expo-status-bar": "latest",
+    "express": "latest",
+    "firebase": "latest",
+    "http": "latest",
+    "lucide-react-native": "latest",
+    "react": "18.3.1",
+    "react-native": "0.76.7",
+    "react-native-gesture-handler": "latest",
+    "react-native-google-places-autocomplete": "^2.5.7",
+    "react-native-maps": "1.7.1",
+    "react-native-reanimated": "^3.6.1",
+    "react-native-safe-area-context": "latest",
+    "react-native-screens": "latest",
+    "react-native-svg": "latest",
+    "react-native-url-polyfill": "^2.0.0",
+    "react-native-webview": "*",
+    "socket.io": "latest",
+    "sonner-native": "latest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/react": "~18.3.12",
+    "babel-preset-expo": "^12.0.9",
+    "typescript": "^5.3.3"
+  },
+  "private": true
+}
